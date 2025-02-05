@@ -1,0 +1,11 @@
+[package]
+name = "deep-buster"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = "0.12.12"
+tokio = {version = "1", features = ["full"]}
+argh = "0.1.13"
+owo-colors = "4.1"
+indicatif = "0.17"

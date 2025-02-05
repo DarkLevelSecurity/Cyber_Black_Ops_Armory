@@ -1,0 +1,4 @@
+/ 
+/admin 
+/robots.txt 
+/phpmyadmin
