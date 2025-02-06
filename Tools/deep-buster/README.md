@@ -23,7 +23,7 @@ Libraries and Frameworks:
 - 
 ### Project Structure
 ```txt
-src 
+src
 |- main.rs
 |- lib.rs 
 |- buster/
@@ -33,16 +33,15 @@ src
 |  |- attack.rs # where the brute-force will happen?
 |- debug/
 |  |- mod.rs # debuging messages
-Cargo.toml
-Cargo.lock
 ```
 
 ### Usage
-just go inside the project directory an run
+just go inside the project directory an run this
 ```
 cargo build
 ```
-to build the tool, and you can run `target/debug/dir-buster`
+to build the tool.
+and you can run it with `target/debug/deep-buster`
 
 ```
 Usage: deep-buster [-u <url>] [-w <wordlist>] [--all]
